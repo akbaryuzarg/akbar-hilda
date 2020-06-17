@@ -155,21 +155,24 @@ hr {
     margin-block-end: 0px;
 }
 
-.social a:hover {
-    text-decoration: none;
-    filter: hue-rotate(45deg);
+.social a {
+  text-decoration: none;
+  /* filter: hue-rotate(45deg); */
+  /* border: 1px solid black; */
+  margin: 10px 4px 0px;
 }
 .bio-paslon .fab {
   color: #343a40;
   font-size: 2.5em;
-  margin: 10px 8px 0px;
   transition: all 0.2s ease;
 }
 .bio-paslon .fab:hover {
-  color: #89f1a3;
+  color: #2C91FB;
+  cursor: pointer;
+  text-decoration: none;
 }
 .bio-paslon .fab:active {
-  color: #d989f1;
+  color: #89f1a3;
 }
 
 
