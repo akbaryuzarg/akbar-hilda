@@ -2,7 +2,7 @@ html {position: relative;}
 body {margin-bottom: 70px;}
 
 #visi-misi {
-    min-height: 600px;
+    /* min-height: 600px; */
 }
 
 #biodata {
@@ -55,14 +55,15 @@ body {margin-bottom: 70px;}
 
 /* Visi - Misi */
 #visi-misi {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .visi, .misi {
     border-radius: 20px;
-    box-shadow: 0px 0px 50px 0px rgba(189, 187, 187, 0.5);
+    /* box-shadow: 0px 0px 50px 0px rgba(189, 187, 187, 0.5); */
+    box-shadow: 0 0 12px #ced3d6;
     padding: 20px;
-    margin: 10px 2.5px;
+    margin: 6px 2.5px;
 }
 
 .cont-misi .misi {
@@ -174,9 +175,91 @@ hr {
 .bio-paslon .fab:active {
   color: #89f1a3;
 }
-
-
 /* Akhir Biodata */
+
+/* PROKER */
+#proker {
+  /* min-height: 400px; */
+}
+#proker .container {
+  margin-bottom: 20px;
+}
+.proker-wrapper {
+  margin: 10px;
+}
+#proker .kartu {
+  padding: 0px;
+  /* border: 1px solid orange; */
+}
+.judul-proker {
+  margin-bottom: -10px;
+}
+.proker {
+  /* border: 1px solid black; */
+  min-height: 200px;
+  margin: 10px;
+  border-radius: 7px;
+  box-shadow: 0 0 12px #ced3d6;
+  padding: 20px;
+}
+.proker h3 {
+  font-weight: 650;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+.proker p {
+  color: #696969;
+}
+/* AKHIR PROKER */
+
+/* PENDAFTARAN */
+#pendaftaran .wrapper {
+  padding: 0px;
+  /* border: 1px solid black; */
+  margin: 0 5px 20px;
+}
+.daftar-wrapper {
+  /* border: 1px solid black; */
+  min-height: 200px;
+  margin: 10px;
+  border-radius: 7px;
+  box-shadow: 0 0 12px #ced3d6;
+  padding: 20px;
+}
+.daftar-wrapper h3 {
+  font-weight: 700;
+  font-size: 2em;
+}
+.daftar-wrapper p {
+  color: #696969;
+}
+.message-wrapper {
+  margin: 0px auto;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+.btn:hover {
+  opacity: 1;
+  color: white;
+}
+.message {
+  padding: 15px 40px;
+  background-color: #64afff;
+  cursor: pointer;
+  box-shadow: 0 7px #2360a1;
+}
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+/* AKHIR PENDAFTARAN */
 
 /* Footer */
 footer {
@@ -194,3 +277,16 @@ footer p {
     font-size: 1em;
 }
 /* Akhir Footer */
+
+@media all and (max-width: 990px) {
+  .proker {
+    min-height: 0px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  /* .pendaftaran-wrapper h3 {
+    font-weight: 700;
+    font-size: 1.8em;
+  } */
+}
